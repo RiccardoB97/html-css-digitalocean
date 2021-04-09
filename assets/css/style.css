@@ -57,10 +57,11 @@ body{
 
 .btn_full{
     background-color: #2285FD;
-    color: white;
     padding: 5px 10px;
     border-radius: 4px;
     width: 90%;
+    font-size: 14px;
+    color: white;
 }
 
 .btn_white{
@@ -130,14 +131,12 @@ nav a{
 }
 .jumbotext p{
     line-height: 28px;
-    padding-right: 180px;
     font-size: 18px;
     opacity: 75%;
 }
 
 .jumbotext h1{
     font-size: 3rem;
-    padding-right: 200px;
 }
 
 /* Registration card */
@@ -145,14 +144,18 @@ nav a{
     background-color: white;
     border-radius: 4px;
     text-align: center;
-    width: 85%;
     margin: auto;
     font-size: 1rem;
     padding: 2.5rem 0;
+    margin: 20px;
 }
 
 .card h2{
     line-height: 150%;
+}
+
+.card h2.blue{
+    margin-bottom: 1rem;
 }
 
 .card .container{
@@ -175,7 +178,23 @@ nav a{
     left: 10px;
 }
 
-
+.card a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.card .btn_full a{
+    color: white;
+}
+.card .btn_white a{
+    color: black;
+}
+.card .terms a{
+    color: #2285FD;
+}
+.card .terms{
+    font-size: 12px;
+    margin-top: 5px;
+}
 
 
  /******
@@ -198,6 +217,12 @@ nav a{
      nav .fa-bars{
          display: none;
      }
+    .jumbotext h1{
+        padding-right: 200px;
+    }
+    .jumbotext p{
+        padding-right: 180px;
+    }
  }
 
  /* Makes menu links invisible and hamburger menu appears */
@@ -216,7 +241,7 @@ nav a{
 
 /* Adds a padding to the logo */
  @media screen and (max-width:1225px){
-     .logo{
+     .logo, .jumbotext{
          padding-left: 20px;
      }
  }
