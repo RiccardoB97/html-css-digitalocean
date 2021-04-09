@@ -7,6 +7,18 @@ body{
 
 /* Utilities */
 
+.blue{
+    color: #004AFF;
+}
+
+.dark_blue{
+    color:  #031C4E;
+}
+
+.light_blue{
+    color: #579AFF;
+}
+
 .bg_blue{
     background: #004AFF;
 }
@@ -50,6 +62,8 @@ body{
  Site Header 
  ******/
 
+
+ /* Navbar */
 nav{
     height: 66px;
     background-color: white;    
@@ -77,6 +91,52 @@ nav a{
      text-decoration: none;
      color: #031C4E;
 }
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: #004AFF;
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    padding: 4rem 0;
+}
+
+.jumbotron .container{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.jumbotext{
+    color: white;
+}
+.jumbotext p{
+    line-height: 28px;
+    padding-right: 180px;
+    font-size: 18px;
+    opacity: 75%;
+}
+
+.jumbotext h1{
+    font-size: 3rem;
+    padding-right: 200px;
+}
+
+/* Registration card */
+.card {
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 2.5rem 0.5rem;
+}
+
+.card h2{
+    line-height: 150%;
+}
+
 
 
  /******
