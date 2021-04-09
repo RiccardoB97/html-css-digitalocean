@@ -84,13 +84,12 @@ body{
 
  /* Navbar */
 nav{
-    height: 66px;
     background-color: white;    
 }
 
-nav > .container{
+nav .container{
     align-items: center;
-    height: 100%;
+    padding: 1rem 0;
 }
 
 .logo{
