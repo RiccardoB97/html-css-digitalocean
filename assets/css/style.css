@@ -1,3 +1,10 @@
+/* Common classes */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
 /* Utilities */
 
 .bg_blue{
@@ -20,19 +27,56 @@
     display: flex;
 }
 
+.text_right{
+    text-align: right;
+}
+
+.btn_empty{
+    border: 1px solid #2285FD;
+    color: #2285FD;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn_empty:hover{
+    background-color:#2285FD;
+    color: white;
+}
+
+.px_2{
+    padding: 0 2rem;
+}
 /******
  Site Header 
  ******/
 
- nav{
+nav{
     height: 66px;
-    background-color: white;
- }
+    background-color: white;    
+}
 
- .logo{
+nav > .container{
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
      height: 35px;
- }
+}
 
+nav ul{
+     list-style: none;
+}
+
+nav ul > li{
+    display: inline-block;
+    padding: 0 0.3rem;
+}
+
+nav a{
+     text-decoration: none;
+     color: #031C4E;
+}
 
 
  /******
@@ -42,3 +86,38 @@
  /******
  Site Footer 
  ******/
+ 
+
+
+ /******
+  Mediaquerys 
+  ******/
+
+
+  /* Makes hamburger menu invisible */
+ @media screen and (min-width: 992px){
+     nav .fa-bars{
+         display: none;
+     }
+ }
+
+ /* Makes menu links invisible and hamburger menu appears */
+ @media screen and (max-width:991px){
+    nav .col-lg-4{
+        display: none;
+    }
+
+     nav .fa-bars{
+        display: block;
+        color: #2285FD;
+        font-size: 1.5rem;
+    }
+
+ }
+
+/* Adds a padding to the logo */
+ @media screen and (max-width:1225px){
+     .logo{
+         padding-left: 20px;
+     }
+ }
