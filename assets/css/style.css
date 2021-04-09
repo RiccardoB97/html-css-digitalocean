@@ -15,3 +15,30 @@
 .bg_lightgray{
     background: #F3F5F9;
 }
+
+.d_flex{
+    display: flex;
+}
+
+/******
+ Site Header 
+ ******/
+
+ nav{
+    height: 66px;
+    background-color: white;
+ }
+
+ .logo{
+     height: 35px;
+ }
+
+
+
+ /******
+ Site Main
+ ******/
+
+ /******
+ Site Footer 
+ ******/
