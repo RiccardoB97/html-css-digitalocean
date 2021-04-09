@@ -201,6 +201,38 @@ nav a{
  Site Main
  ******/
 
+
+ .customers{
+     text-align: center;
+ }
+
+ .customers h4{
+    font-size: 0.9rem;
+    color: gray;
+    text-transform: uppercase;
+    padding: 2rem;
+ }
+
+ .customers img{
+    width: 80%;
+ }
+
+ .customers .container{
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .customers a{
+    color: #2285FD;
+    font-size: 14px;
+    text-decoration: none;
+ }
+
+ .customers .link{
+     padding-bottom: 20px;
+ }
+
+
  /******
  Site Footer 
  ******/
