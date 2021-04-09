@@ -43,6 +43,10 @@ body{
     text-align: right;
 }
 
+.text_center{
+    text-align: center;
+}
+
 .btn_empty{
     border: 1px solid #2285FD;
     color: #2285FD;
@@ -200,7 +204,7 @@ nav a{
  Site Main
  ******/
 
-
+/* Customer section */
  .customers{
      text-align: center;
  }
@@ -213,7 +217,8 @@ nav a{
  }
 
  .customers img{
-    width: 80%;
+    width: 90%;
+    padding: 0 10px;
  }
 
  .customers .container{
@@ -226,9 +231,29 @@ nav a{
     font-size: 14px;
     text-decoration: none;
  }
-
  .customers .link{
      padding-bottom: 20px;
+ }
+
+ /* Deploy section */
+
+ .deploy h2{
+     color: #031C4E;
+     font-size: 2rem;
+ }
+
+ .deploy p{
+     font-size: 1.2rem;
+     color: rgba(92, 106, 136, 1);
+     margin-top: 30px;
+ }
+ 
+ .deploy .row{
+     margin-top: 50px;
+ }
+
+ .deploy [class*="col-"]{
+     padding: 0 20px;
  }
 
 
