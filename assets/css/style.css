@@ -89,6 +89,13 @@ body{
 .flex_w{
     flex-wrap:wrap ;
 }
+
+.sub_title{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+    color: rgba(92, 106, 136, 1);
+}
 /******
  Site Header 
  ******/
@@ -250,11 +257,6 @@ nav a{
      font-size: 2rem;
  }
 
- .sub_title{
-     margin-top: 30px;
-     font-size: 1.2rem;
-     padding-bottom: 40px;
- }
  
  .deploy{
      padding: 50px 0;
@@ -283,19 +285,67 @@ nav a{
  .deploy h4{
      font-size: 1.2rem;
      padding: 10px 0;
+     color: #031C4E;
  }
 
  .deploy p{
     color: rgba(92, 106, 136, 1);
 }
 
-.deploy .description{
+.description{
     font-size: 1rem;
+    color: rgba(92, 106, 136, 1);
 }
 
 .deploy img{
     margin-top: 20px;
 }
+
+/* Design section */
+
+.design{
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+}
+
+.design h2{
+    font-size: 2rem;
+    color: #031C4E;
+}
+
+.design img{
+    width: 70%;
+}
+
+.design .arrow{
+    font-size: 2rem;
+    align-self: center;
+    padding:10px;
+}
+
+.fa-chevron-left{
+    color: grey;
+}
+
+.design .d_flex{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /******
  Site Footer 
  ******/
@@ -343,5 +393,9 @@ nav a{
  @media screen and (max-width:767px){
     .list{
         margin-left: 20px;
+    }
+
+    .design .arrow{
+        display: none;
     }
  }
