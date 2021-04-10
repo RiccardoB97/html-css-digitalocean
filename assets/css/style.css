@@ -81,6 +81,14 @@ body{
 .px_2{
     padding: 0 2rem;
 }
+
+.fd_column{
+    flex-direction: column;
+}
+
+.flex_w{
+    flex-wrap:wrap ;
+}
 /******
  Site Header 
  ******/
@@ -242,21 +250,52 @@ nav a{
      font-size: 2rem;
  }
 
- .deploy p{
-     font-size: 1.2rem;
-     color: rgba(92, 106, 136, 1);
+ .sub_title{
      margin-top: 30px;
+     font-size: 1.2rem;
+     padding-bottom: 40px;
  }
  
- .deploy .row{
-     margin-top: 50px;
+ .deploy{
+     padding: 50px 0;
  }
 
  .deploy [class*="col-"]{
      padding: 0 20px;
  }
 
+ .deploy .list{
+     border-left: 1px solid gray;
+     padding-left: 10px;
+ }
 
+ .deploy ul li{
+     list-style: none;
+ }
+
+ .deploy ul li a{
+     text-decoration: none;
+     color: gray;
+     font-size: 1rem;
+     line-height: 2rem;
+ }
+
+ .deploy h4{
+     font-size: 1.2rem;
+     padding: 10px 0;
+ }
+
+ .deploy p{
+    color: rgba(92, 106, 136, 1);
+}
+
+.deploy .description{
+    font-size: 1rem;
+}
+
+.deploy img{
+    margin-top: 20px;
+}
  /******
  Site Footer 
  ******/
@@ -292,7 +331,6 @@ nav a{
         color: #2285FD;
         font-size: 1.5rem;
     }
-
  }
 
 /* Adds a padding to the logo */
@@ -300,4 +338,10 @@ nav a{
      .logo, .jumbotext{
          padding-left: 20px;
      }
+ }
+
+ @media screen and (max-width:767px){
+    .list{
+        margin-left: 20px;
+    }
  }
