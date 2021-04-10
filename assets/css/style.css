@@ -314,7 +314,7 @@ nav a{
 }
 
 .design img{
-    width: 70%;
+    width: 50%;
 }
 
 .design .arrow{
@@ -380,6 +380,9 @@ nav a{
         display: block;
         color: #2285FD;
         font-size: 1.5rem;
+    }
+    .design img{
+        margin-top: 50px;
     }
  }
 
