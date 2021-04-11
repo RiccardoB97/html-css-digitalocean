@@ -386,7 +386,7 @@ nav a{
 /* World section */
 
 .world{
-    background: linear-gradient(180deg, #0038B5 0%, #00209C 100%);
+    background: linear-gradient(180deg, #0046C4 0%, #001D8E 71.77%);
     padding: 60px 20px 50px 20px;
     color: white;
 }
@@ -405,6 +405,7 @@ nav a{
 .world .city span{
     opacity: 80%;
     font-size: 1rem;
+    flex-grow: 4;
 }
 
 .world .city{
@@ -422,7 +423,13 @@ nav a{
     border-bottom: 1px solid white;
 }
 
+.world a{
+    justify-self: flex-end;
+}
 
+.world .left, .world .right{
+    padding: 20px 15px;
+}
 
  /******
  Site Footer 
