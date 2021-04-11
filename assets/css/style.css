@@ -349,14 +349,78 @@ nav a{
     background-color: #2285FD;
 }
 
+/* Features section */
 
+.features{
+    padding: 60px 20px 80px 20px;
 
+}
 
+.features h2{
+    font-size: 2rem;
+    color: #031C4E;
+    margin-bottom: 40px;
+}
 
+.features img{
+    height: 50px;
+    margin-top: 30px;
+}
 
+.features h4{
+    font-size: 1.2rem;
+    padding: 10px 0;
+    color: #031C4E;
+}
 
+.features .description{
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
 
+.features a{
+    text-decoration: none;
+    color: #2285FD;
+}
 
+/* World section */
+
+.world{
+    background: linear-gradient(180deg, #0038B5 0%, #00209C 100%);
+    padding: 60px 20px 50px 20px;
+    color: white;
+}
+
+.world h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.world h4{
+    padding:0 50px 0 20px;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.world .city span{
+    opacity: 80%;
+    font-size: 1rem;
+}
+
+.world .city{
+    padding: 10px 0;
+}
+
+.world a{
+    text-decoration: none;
+    color: #00BBCC;
+    font-size: 1rem;
+    padding-right: 20px;
+}
+
+.white_bot{
+    border-bottom: 1px solid white;
+}
 
 
 
