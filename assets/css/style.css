@@ -496,6 +496,27 @@ nav a{
     justify-self: center;
 }
 
+/* Get started section */
+
+.get_started{
+    background: linear-gradient(180deg, #0046C4 0%, #001D8E 71.77%);
+    color: white;
+    padding: 50px 20px;
+}
+
+.get_started h2{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.get_started a{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #F3F5F9;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2285FD;
+}
 
  /******
  Site Footer 
