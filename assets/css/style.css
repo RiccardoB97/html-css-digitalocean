@@ -432,6 +432,71 @@ nav a{
     padding: 20px 15px;
 }
 
+/* Rockerbox section */
+
+.rockerbox{
+    padding: 50px 20px;
+}
+
+.rockerbox h2{
+    font-size: 2rem;
+    color: #031C4E;
+    padding-bottom: 50px;
+}
+
+.rockerbox .arrow{
+    font-size: 2rem;
+    padding:10px;
+}
+
+.rockerbox img{
+    width: 70%;
+}
+
+.rocker{
+    justify-content: center;
+    align-items: center;
+}
+
+.rockerbox .square{
+    width: 50%;
+    background-color: white;
+    padding: 60px 10px;
+}
+
+.square{
+    margin-bottom: 30px;
+}
+
+.square p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: rgba(92, 106, 136, 1);
+    padding-bottom: 20px;
+}
+
+.square h4{
+    color: #031C4E;
+    font-size: 1rem;
+    padding-bottom: 10px ;
+}
+
+.square h5{
+    font-size: 0.8rem;
+    color: #031C4E;
+    padding-bottom: 30px;
+}
+
+.square a{
+    text-decoration: none;
+    color: #2285FD;
+}
+
+.rockerbox .circle{
+    justify-self: center;
+}
+
+
  /******
  Site Footer 
  ******/
@@ -488,7 +553,7 @@ nav a{
         margin-left: 20px;
     }
 
-    .design .arrow{
+    .arrow{
         display: none;
     }
 
