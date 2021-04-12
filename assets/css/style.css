@@ -522,7 +522,47 @@ nav a{
  Site Footer 
  ******/
  
+ #site_footer{
+     color: white;
+     background-color: #031C4E;
+     padding: 40px 20px;
+ }
 
+ #site_footer .icons li{
+     display: inline-block;
+     padding: 20px 5px;
+ }
+
+#site_footer h5{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    opacity: 60%;
+}
+
+ #site_footer .icons li a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.3rem;
+     opacity: 60%;
+ }
+
+ #site_footer h3{
+     font-size: 1rem;
+     padding: 30px 0 10px 0;
+ }
+
+ #site_footer .links li{
+     font-size: 1rem ;
+     list-style: none;
+     padding: 5px 0;
+ }
+
+ #site_footer .links li a{
+     text-decoration: none ;
+     color: white;
+     opacity: 60%;
+
+ }
 
  /******
   Mediaquerys 
